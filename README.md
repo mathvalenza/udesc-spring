@@ -27,19 +27,19 @@ POST -X http://localhost:8081/fornecedor/salvar -param = {"nome": "salvar"}
 - Buscar
 
 ```sh
-GET http://localhost:8081/fornecedor/buscar/{id} -param = {"nome": "buscar"}
+GET http://localhost:8081/fornecedor/buscar/{id}
 ```
 
 - Listar
 
 ```sh
-GET http://localhost:8081/fornecedor/listar -param = {"nome": "listar"}
+GET http://localhost:8081/fornecedor/listar
 ```
 
 - Excluir
 
 ```sh
-DELETE http://localhost:8081/fornecedor/excluir/{id} -param = {"nome": "excluir"}
+DELETE http://localhost:8081/fornecedor/excluir/{id}
 ```
 
 ## Dependências:
