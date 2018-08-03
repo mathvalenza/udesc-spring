@@ -5,7 +5,7 @@ import br.udesc.curso.vo.PropostaVO;
 
 public abstract class CoberturaCalculation {
 	
-	float calcular(PropostaVO proposta) {
+	public float calcular(PropostaVO proposta) {
 		Veiculo veiculo = proposta.getVeiculo();
 		
 		return calcularValor(proposta) + calcularPercentualVeiculo(proposta) * veiculo.getValor();
